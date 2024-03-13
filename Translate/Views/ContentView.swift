@@ -73,7 +73,7 @@ struct ContentView: View {
                                     showCopiedPopup = true
                         
                                     // Hide the "Copied" popup after 1 seconds
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
                                         showCopiedPopup = false
                                     }
                                 }) {
