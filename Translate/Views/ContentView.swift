@@ -62,10 +62,11 @@ struct ContentView: View {
                 .padding()
                 
                 VStack {
+                    
                     Text(translatedText)
                         .padding()
                         
-                            .frame(width: 300, height: 100)
+                            .frame(width: 300, height: 200)
 
                     Button(action: {
                                     UIPasteboard.general.string = translatedText
